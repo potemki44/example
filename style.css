@@ -1,0 +1,48 @@
+html{
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+*,
+::before, 
+::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
+header{
+    width: 100%;
+    background-color: #fff;
+    height: 60px;
+    box-shadow: 1px 1px 11px 2px #00000014;
+}
+header .container {
+    max-width: 900px;
+    margin: 0 auto;
+    height: inherit;  /*inherit hereda */
+    padding: 0 20px;    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .item {
+    display: flex;
+    align-items: center;
+     gap: 8px;   /* dar espaciado*/
+}
+.navbar .item i{
+    font-size: 24px;
+}
+.img-container {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.img img{
+    width: 100%;
+}
